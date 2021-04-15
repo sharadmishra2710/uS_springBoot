@@ -1,0 +1,12 @@
+server:
+  port: 8877
+spring:
+  application:
+    name: CONFIG-SERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sharadmishra2710/config-server
+          clone-on-start: true
